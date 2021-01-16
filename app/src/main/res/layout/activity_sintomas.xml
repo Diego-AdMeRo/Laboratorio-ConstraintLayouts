@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Sintomas">
+
+        <TextView
+            android:id="@+id/pregunta1"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/reporteNotificacion_check_dif_respirar"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/sp_respuesta_1"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/verificar_sintomas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta1" />
+
+        <TextView
+            android:id="@+id/pregunta2"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/reporteNotificacion_check_fatiga"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp_respuesta_1" />
+
+        <Spinner
+            android:id="@+id/sp_respuesta_2"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/verificar_sintomas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta2" />
+
+        <TextView
+            android:id="@+id/pregunta3"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/reporteNotificacion_check_fiebre"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp_respuesta_2" />
+
+        <Spinner
+            android:id="@+id/sp_respuesta_3"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/verificar_sintomas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta3" />
+
+        <TextView
+            android:id="@+id/pregunta4"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/reporteNotificacion_check_tos"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp_respuesta_3" />
+
+        <Spinner
+            android:id="@+id/sp_respuesta_4"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/verificar_sintomas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta4" />
+
+        <TextView
+            android:id="@+id/pregunta5"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/reporteNotificacion_check_dis_olfato_sabor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp_respuesta_4" />
+
+        <Spinner
+            android:id="@+id/sp_respuesta_5"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/verificar_sintomas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta5" />
+
+        <TextView
+            android:id="@+id/pregunta6"
+            android:layout_width="304dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/reporteNotificacion_check_contacto"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp_respuesta_5" />
+
+        <Spinner
+            android:id="@+id/sp_respuesta_6"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/verificar_sintomas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pregunta6" />
+
+        <Button
+            android:id="@+id/btn_sintomas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/reporteNotificacion_btn_enviar_sintomas"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp_respuesta_6"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LaboratorioConstraintLayouts</string>
+    <string name="enviar_activity_2">Enviar a Activity 2</string>
+    <string name="enviar_activity_3">Enviar a Activity 3</string>
+    <string name="enviar_activity_4">Enviar a Activity 4</string>
+    <string name="enviar_activity_main">Inicio</string>
+    <string name="enviar_activity_formulario">Formulario Sintomas</string>
+    <string name="reporteNotificacion_check_dif_respirar">¿Presenta Dificultad para Respirar?</string>
+    <string name="reporteNotificacion_check_fatiga">¿Presenta Fatiga?</string>
+    <string name="reporteNotificacion_check_fiebre">¿Presenta Fiebre?</string>
+    <string name="reporteNotificacion_check_tos">¿Presenta Tos?</string>
+    <string name="reporteNotificacion_check_dis_olfato_sabor">¿Presenta Disminución de Olfato y Sabor?</string>
+    <string name="reporteNotificacion_check_contacto">¿Ha estado en Contacto con Sospechoso o Persona con COVID-19</string>
+    <string name="reporteNotificacion_btn_enviar_sintomas">Enviar Sintomas</string>
+    <string-array name="verificar_sintomas">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+</resources>
